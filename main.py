@@ -39,7 +39,7 @@ class zefoy:
         
     def main(self):
         os.system(self.clear)
-        self.change_title("TikTok Automator using zefoy.com | Github: @xtekky")
+        self.change_title("TikTok Automator using zefoy.com | Github: @mrjuice01")
         
         print(self.color + text)
         print("\n" + self._print("Waiting for Zefoy to load... 502 Error = Blocked country or VPN is on"))
@@ -56,8 +56,8 @@ class zefoy:
         
         print(self.color + text)
         print()
-        print(self._print(f"Join our {self.color}Discord Server{Fore.WHITE} for exclusive FREE tools."))
-        print(self._print(f"You can also get updates when Zefoy updates the bots and more."))
+        print(self._print(f"Subcribe our {self.color}Youtube Channel{Fore.WHITE} for exclusive FREE tools."))
+            print(self._print(f"You can also get updates when Mr Juice updates the bots and more."))
         print(self._print(f"Select your option below." + "\n"))
         
         counter = 1
@@ -65,7 +65,7 @@ class zefoy:
             print(self._print(f"{thing} {status[thing]}", counter))
             counter += 1
         
-        print(self._print(f"Discord / Support", "7"))
+        print(self._print(f"Youtube / Support", "7"))
         option = int(input("\n" + self._print(f"")))
         
         if option == 1:
@@ -93,7 +93,7 @@ class zefoy:
             self.driver.find_element("xpath", self.xpaths["favorites"]).click()
         
         elif option == 7:
-            webbrowser.open('discord.gg/onlp')
+            webbrowser.open('https://www.youtube.com/@mrjuiceofc')
             os._exit(1)
         
         else:
@@ -132,7 +132,7 @@ class zefoy:
         while delay != 0:
             time.sleep(1)
             delay -= 1
-            self.change_title(f"TikTok Zefoy Automator using Zefoy.com | Cooldown: {delay}s | Github: @useragents")
+            self.change_title(f"TikTok bot by Mr Juice | Cooldown: {delay}s | Github: @mrjuice01")
 
     def convert(self, min, sec):
         seconds = 0
