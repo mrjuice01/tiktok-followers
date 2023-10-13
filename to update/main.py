@@ -69,7 +69,7 @@ class zefoy:
         if name == 'nt':
             while True:
                 stats = livecounts.video_info(self.__item_id)
-                system('title Zefoy Bot by @xtekky ^| Likes: %s Views: %s Shares: %s ^| %s ^| mode: shares' % (
+                system('title Zefoy Bot by @mrjuice01 ^| Likes: %s Views: %s Shares: %s ^| %s ^| mode: shares' % (
                     stats['likeCount'], stats['viewCount'], stats['shareCount'], str(self.__item_id)
                 ))
                 
@@ -252,7 +252,7 @@ class zefoy:
 
     @staticmethod
     def startup():
-        system('cls' if name == 'nt' else ''); system('title Like Bot by @xtekky ^| starting...')
+        system('cls' if name == 'nt' else ''); system('title Like Bot by @mrjuice01 ^| starting...')
         print(Col.purple + Center.XCenter('''\n ______ _______ _______  _____  __   __      ______   _____  _______\n  ____/ |______ |______ |     |   \_/        |_____] |     |    |   \n /_____ |______ |       |_____|    |         |_____] |_____|    |   \n                      made with <3 by tekky   ''') + Col.reset); print("\n\n")
 
 if __name__ == "__main__":
