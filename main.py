@@ -39,7 +39,7 @@ class zefoy:
         
     def main(self):
         os.system(self.clear)
-        self.change_title("TikTok Automator using zefoy.com | Github: @mrjuice01")
+        self.change_title("TikTok Followers bot by Mr Juice | Github: @mrjuice01")
         
         print(self.color + text)
         print("\n" + self._print("Waiting for Zefoy to load... 502 Error = Blocked country or VPN is on"))
